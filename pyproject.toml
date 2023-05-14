@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyplop"
+version = "0.1.0"
+description = "PyPlop is a Python library that makes it easy to add sound notifications to your scripts. Whether you're running a lengthy process and want to be notified when it's finished, or you want to add a little extra pizzazz to your command-line tools, PyPlop has got you covered!"
+authors = ["Your Name <you@example.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playsound = "^1.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.267"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
