@@ -1,5 +1,8 @@
 from playsound import playsound
 
 class sounds:
+    def _play(self, file):
+        playsound(file)
+
     def scream(self):
-        playsound('sounds/scream.mp3')
+        self._play('sounds/scream.mp3')
