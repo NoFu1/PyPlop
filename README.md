@@ -6,7 +6,7 @@ PyPlop is a Python library that makes it easy to add sound notifications to your
 
 To install PyPlop, simply use pip:
 
-```
+```bash
 pip install pyplop
 ```
 
